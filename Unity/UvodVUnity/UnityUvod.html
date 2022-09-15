@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+>>>>>>> 0e97180 (first commit)
+>>>>>>> 7a01398 (ki)
+	<title>Uvod v unity</title>
+</head>
+<body>
+	<h1>Uvod V Unity</h1>
+	<p>V tem vodiču se boste navčili osnove C# in unity</p>
+
+	<h2>1. Narediti Projekt</h2>
+	<p>Odprite Unity Hub in kliknite na "New project".</p>
+	<img src="imgs/NewPro.png" width="400">
+	<p>Nato napišite ime projekta in budite pozorn da imate izbrano 3D</p>
+	<img src="imgs/NamestitveImena.png" width="400">
+	<p>Nato kiliknite "Create project"</p>
+	<img src="imgs/NarediProjekt.png" width="400">
+	<p>Nato se vam odprel unity editor ki izgleda nekako tako odvisno od vaše verzije :</p>
+	<img src="/static/imgs/UnityKoJeOdprt.png" width="400">
+
+	<h2>2. Začeti izdelovati igro</h2>
+	<p>Tukaj je razluženo kaj je kaj:</p>
+	<img src="imgs/RazlagaUnitya.png" width="400">
+	<p>Zdaj pa začnimo!</p>
+	<p>Prvo Bomo Naredili pladformo klinite "GameObject" in nato "3D Objects" in nato "Plane"</p>
+	<img src="imgs/KakoNareditiPladformo1.png" width="400">
+	<p>Nato pojdite v in game inspector in kilknite "plane" nato pojdite v Inspector in desni klik na Transform in Reset</p>
+	<img src="imgs/RestePos.png" width="400">
+	<p>Nato Bomo Naredili igralca na enak način kot smo pladformo</p>
+
+	<video preload="auto" muted="true" loop="true" id="video1" width="600" height="350">
+  		<source src="vids/2022-09-14 08-03-51.mp4" type="video/mp4">
+	</video>
+
+	<p>Zdaj bomo dodali C# script</p>
+	<p>Klikni na igralca in nato "add componets"</p>
+	<img src="imgs/AddC1.png" width="400">
+	<p>Poiščemo "Player" Nato kiliknemo "new script"</p>
+	<img src="imgs/AddC2.png" width="400">
+	<p>Kilknite "Create and Add"</p>
+	<img src="imgs/AddC3.png" width="400">
+	<p>Levi clik na script in kliknite "Edit Script"</p>
+	<img src="imgs/KakoOdprediScript.png" width="400">
+
+	<h2>3. Koderanje</h2>
+	<p>Tako bo izgledalo ko odpremo vs lahko uporabljamo tudi druge code editorje</p>
+	<img src="imgs/KoOdpremoVS.png" width="400">
+	<p>Zdaj Pa bomo Začeli Koderati</p>
+	<p>Prvo bomo dodali "FixedUpdite void"</p>
+	<img src="imgs/DodamoFixedUpdite.png" width="400">
+	<p>Nato Pa nekaj spremenljivk</p>
+	<img src="imgs/DodamoVebs.png" width="400">
+	<p>Zdaj Pa sistem za premikanje</p>
+	<img src="imgs/Premikanje.png" width="400">
+	<p>Vrnite se V Unity Editor kiliknite na igralaca in pojdite do scripta in izpolnite tako kod je spodaj</p>
+	<img src="imgs/IzpolnitevVebs.png" width="400">
+	<p>Nato dodamo novo Komponento "Rigidbody"</p>
+	<p>Rigidbody je komponenta ki doda fiziko gameObject sepravi da če damo rigid body na playerja po občutil fiziko</p>
+
+	<video preload="auto" muted="true" loop="true" id="video3" width="600" height="350">
+  		<source src="vids/2022-09-14 10-33-09.mp4" type="video/mp4">
+	</video>
+
+	<h2>4. Obljikovanje in kamera</h2>
+	<p>Naredimo neki poligon po sovjih željh</p>
+
+	<video preload="auto" muted="true" loop="true" id="video2" width="600" height="350">
+  		<source src="vids/2022-09-14 10-42-09.mp4" type="video/mp4">
+	</video>
+
+	<p>Zdaj pa še zadj del kamera</p>
+	<p>Prvo dodamo prazni GameObject in ga imenujemo "CameraHolder"</p>
+	<img src="imgs/Camera1.png" width="400">
+	<p>Nato damo "MainCamera" v "CameraHolder"</p>
+	<img src="imgs/Camera2.png" width="400">
+	<p>Dodamo novo kodo na "CameraHolder" koda naj se imenuje "Camera Holder"</p>
+	<img src="imgs/Camera3.png" width="400">
+	<p>Nato odprite kodo ni napišite to:</p>
+	<img src="imgs/Camera4.png" width="400">
+	<p>Pojdite nazaj v Unity Editor</p>
+	<p>In nato izpolnite vebs</p>
+	<img src="imgs/Camera5.png" width="400">
+	<p>Nato morate premikat kamero tako kot je na videu:</p>
+
+	<video preload="auto" muted="true" loop="true" id="video4" width="600" height="350">
+  		<source src="vids/2022-09-15 14-38-27.mp4" type="video/mp4">
+	</video>
+
+	<h2>Če ste pirišli do tu greste lahko naprej :)</h2>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+	var myVideo1 = document.getElementById("video1");
+	myVideo1.play(); 
+
+	var myVideo2 = document.getElementById("video2");
+	myVideo2.play();
+
+	var myVideo3 = document.getElementById("video3");
+	myVideo3.play();
+
+	var myVideo4 = document.getElementById("video4");
+	myVideo4.play();  
+</script>
