@@ -1,3 +1,3 @@
 # UcimSeProgramerat
 This is noting
-idk
+# Short URL: https://bit.ly/3SOtJuL
